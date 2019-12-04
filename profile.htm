@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+</head>
+
+<body style='background-color:powderblue'>
+        <form action='action_page.php' method='post'>
+            <fieldset>
+                <legend>Profile Information:</legend>
+                <p>Please fill out the following form.</p>
+                <em>All fields are required and must contain valid information.</em>
+                <br><br>
+            <table BORDER="3">
+              <tr>
+                <td>First name</td>
+                <td>
+                    <input type="text" name="firstname" value='Kevin'>
+                </td>
+             </tr>
+            <tr>
+                <td>Last name</td>
+                <td>
+                    <input type="text" name="lastname" value='Sokolyuk'>
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="integer" name="age" value='21'>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" value='sokolykp@dukes.jmu.edu'>
+                    <em>e.g. user@domain.com</em>
+                </td>
+            </tr>
+            <tr>
+                <td><img src = 'headshot_placeholder.jpg' height='200' alt = Headshot Placeholder></td>
+                <td>
+                    <textarea name='bio' rows=4 cols=50>I was born and raised in Harrisonburg, Virginia.</textarea><br>
+                </td>
+            </tr>
+        </table>
+            <p><input type="submit" value="Submit"></p>
+    </form>
+        </fieldset>
+</body>
